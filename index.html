@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,700;0,9..144,900;1,9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <!-- Hero -->
+    <section class="hero">
+      <header class="header">
+        <img class="logo" src="./images/logo.svg" alt="sunnyside logo">
+        <nav class="nav__btn" aria-label="Primary navigation">
+          <a class="nav" href="#">About</a>
+          <a class="nav" href="#">Services</a>
+          <a class="nav" href="#">Projects</a>
+          <a class="contact-btn" href="#">CONTACT</a>
+        </nav>
+        <button type="button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+          <img src="./images/icon-hamburger.svg" alt="">
+        </button>
+        <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+          <a href="#" class="mobile-contact-btn">CONTACT</a>
+        </nav>
+      </header>
+
+      <div class="hero__content">
+        <h1 class="hero__title">WE ARE CREATIVES</h1>
+        <img class="hero__arrow" src="./images/icon-arrow-down.svg" alt="scroll down">
+      </div>
+
+      <img class="hero__bg" src="./images/desktop/image-header.jpg" alt="">
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="feature__text">
+        <h2 class="feature__heading">Transform your brand</h2>
+        <p class="feature__body">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a href="#" class="learn-more learn-more--yellow">Learn more</a>
+      </div>
+
+      <div class="feature__image">
+        <img src="./images/desktop/image-transform.jpg" alt="Transform">
+      </div>
+
+      <div class="feature__image">
+        <img src="./images/desktop/image-stand-out.jpg" alt="Stand out">
+      </div>
+
+      <div class="feature__text">
+        <h2 class="feature__heading">Stand out to the right audience</h2>
+        <p class="feature__body">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+        <a href="#" class="learn-more learn-more--pink">Learn more</a>
+      </div>
+
+      <div class="feature__overlay feature__overlay--green">
+        <img src="./images/desktop/image-graphic-design.jpg" alt="Graphic Design">
+        <div class="overlay__text">
+          <h3>Graphic Design</h3>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+        </div>
+      </div>
+
+      <div class="feature__overlay feature__overlay--blue">
+        <img src="./images/desktop/image-photography.jpg" alt="Photography">
+        <div class="overlay__text">
+          <h3>Photography</h3>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2 class="testimonials__title">CLIENT TESTIMONIALS</h2>
+      <div class="testimonials__grid">
+        <article class="testimonial">
+          <img src="./images/image-emily.jpg" alt="Emily R.">
+          <p class="testimonial__quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="testimonial__name">Emily R.</p>
+          <p class="testimonial__role">Marketing Director</p>
+        </article>
+        <article class="testimonial">
+          <img src="./images/image-thomas.jpg" alt="Thomas S.">
+          <p class="testimonial__quote">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+          <p class="testimonial__name">Thomas S.</p>
+          <p class="testimonial__role">Chief Operating Officer</p>
+        </article>
+        <article class="testimonial">
+          <img src="./images/image-jennie.jpg" alt="Jennie F.">
+          <p class="testimonial__quote">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="testimonial__name">Jennie F.</p>
+          <p class="testimonial__role">Business Owner</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" aria-label="Image gallery">
+      <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+      <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img class="footer__logo" src="./images/logo.svg" alt="sunnyside">
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest"></a>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
